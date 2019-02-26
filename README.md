@@ -8,6 +8,7 @@ http://www.cs.cmu.edu/~quake/triangle.research.html
 https://troydhanson.github.io/uthash/
 
 TODO:
+- Correct fluxes based on cell face projection
 - Include fluid transport
 - Include thermal-fluid flow coupling
 - Adaptive mesh
