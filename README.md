@@ -1,5 +1,10 @@
 # Hybrid Lagrangian unstructured-Eulerian framework
-Adaptive, unstructured mesh, 2D framework for thermal-fluid flow simulations focuses on particle transport
+Adaptive, unstructured grid, 2D framework for thermal-fluid flow simulations focused on particle transport
+
+FEATURES:
+- Finite Volume method
+- Thermal diffusion on plates
+- Multiple thermal conductivity
 
 USES:
 - Triangle: Engineering a 2D Quality Mesh Generator and Delaunay Triangulator
@@ -8,8 +13,9 @@ http://www.cs.cmu.edu/~quake/triangle.research.html
 https://troydhanson.github.io/uthash/
 
 TODO:
-- Correct fluxes based on cell face projection
-- Include fluid transport
-- Include thermal-fluid flow coupling
+- Correct fluxes based on cell's face orthogonal projection
+- Add momentum transport
+- Add thermal-momentum coupling
 - Add particle transport
-- Adaptive mesh
+- Add adaptive grid
+- Add MPI for distributed processing
